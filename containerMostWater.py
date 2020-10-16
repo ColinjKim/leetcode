@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/container-with-most-water/submissions/
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         curMax = 0
@@ -17,5 +18,4 @@ class Solution:
             if tempMax > curMax:
                 curMax = tempMax
         return curMax
-                
-        
+ 
